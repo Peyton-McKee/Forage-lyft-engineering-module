@@ -1,5 +1,5 @@
-from Car.Battery.spindler_battery import SpindlerBattery
-from engine.sternman_engine import SternmanEngine
+from carMake.battery.spindler_battery import SpindlerBattery
+from carMake.engine.sternman_engine import SternmanEngine
 
 
 class Palindrome(SternmanEngine, SpindlerBattery):

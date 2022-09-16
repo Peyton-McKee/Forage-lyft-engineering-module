@@ -1,5 +1,5 @@
-from Car.Battery.nubbin_battery import NubbinBattery
-from engine.willoughby_engine import WilloughbyEngine
+from carMake.battery.nubbin_battery import NubbinBattery
+from carMake.engine.willoughby_engine import WilloughbyEngine
 
 
 class Rorschach(WilloughbyEngine, NubbinBattery):

@@ -1,5 +1,5 @@
-from Car.Battery.spindler_battery import SpindlerBattery
-from engine.willoughby_engine import WilloughbyEngine
+from carMake.battery.spindler_battery import SpindlerBattery
+from carMake.engine.willoughby_engine import WilloughbyEngine
 
 
 class Glissade(WilloughbyEngine, SpindlerBattery):

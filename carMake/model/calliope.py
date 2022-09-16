@@ -1,5 +1,5 @@
-from Car.Battery.spindler_battery import SpindlerBattery
-from engine.capulet_engine import CapuletEngine
+from carMake.battery.spindler_battery import SpindlerBattery
+from carMake.engine.capulet_engine import CapuletEngine
 
 
 class Calliope(CapuletEngine, SpindlerBattery):

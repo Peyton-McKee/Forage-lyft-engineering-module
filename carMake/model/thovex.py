@@ -1,5 +1,5 @@
-from Car.Battery.nubbin_battery import NubbinBattery
-from engine.capulet_engine import CapuletEngine
+from carMake.battery.nubbin_battery import NubbinBattery
+from carMake.engine.capulet_engine import CapuletEngine
 
 
 class Thovex(CapuletEngine, NubbinBattery):
